@@ -276,12 +276,12 @@ function HomePage() {
             <div className="location-info">
               <h3>📍 Our Location</h3>
               <p><strong>Address:</strong> Near by alakhnanda, Golf city ghuswal kalan Lucknow Uttar Pradesh 226002</p>
-              <button className="directions-btn" onClick={() => window.open('https://maps.google.com/?q=Alaknanda+Enclave+AWadh+Vihar+Yojana', '_blank')}>Get Directions</button>
+              <button className="directions-btn" onClick={() => window.open('https://www.google.com/maps?q=26.770778,80.989194', '_blank')}>Get Directions</button>
             </div>
             <div className="map-container">
               <iframe
                 title="Swaad Sarowar Location"
-                src="https://www.google.com/maps?q=Alaknanda+Enclave+AWadh+Vihar+Yojana&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.8147830657387!2d80.98919399999999!3d26.770778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDQ2JzE0LjgiTiA4MMKwNTknMjEuMSJF!5e0!3m2!1sen!2sin!4v1643000000000!5m2!1sen!2sin"
                 width="100%"
                 height="300"
                 style={{ border: 0, borderRadius: '12px' }}
