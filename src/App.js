@@ -276,8 +276,6 @@ function HomePage() {
             <div className="location-info">
               <h3>📍 Our Location</h3>
               <p><strong>Address:</strong> Near by alakhnanda, Golf city ghuswal kalan Lucknow Uttar Pradesh 226002</p>
-              <p><strong>Landmark:</strong> Near Central University of Jharkhand</p>
-              <p><strong>Area:</strong> Brambe, Jharkhand 835205</p>
               <button className="directions-btn" onClick={() => window.open('https://maps.google.com/?q=Alaknanda+Enclave+AWadh+Vihar+Yojana', '_blank')}>Get Directions</button>
             </div>
             <div className="map-container">
